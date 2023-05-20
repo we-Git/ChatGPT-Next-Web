@@ -12,7 +12,7 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
 ![主界面](./docs/images/cover.png)
-test
+
 </div>
 
 ## 开始使用
