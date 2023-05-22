@@ -136,20 +136,7 @@ const vi: LocaleType = {
       Title: "Ngưỡng nén lịch sử tin nhắn",
       SubTitle: "Thực hiện nén nếu số lượng tin nhắn chưa nén vượt quá ngưỡng",
     },
-    Token: {
-      Title: "API Key",
-      SubTitle: "Sử dụng khóa của bạn để bỏ qua giới hạn mã truy cập",
-      Placeholder: "OpenAI API Key",
-    },
-    Usage: {
-      Title: "Hạn mức tài khoản",
-      SubTitle(used: any, total: any) {
-        return `Đã sử dụng $${used} trong tháng này, hạn mức $${total}`;
-      },
-      IsChecking: "Đang kiểm tra...",
-      Check: "Kiểm tra",
-      NoAccess: "Nhập API Key để kiểm tra hạn mức",
-    },
+
     AccessCode: {
       Title: "Mã truy cập",
       SubTitle: "Đã bật kiểm soát truy cập",

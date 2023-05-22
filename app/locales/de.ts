@@ -138,21 +138,7 @@ const de: LocaleType = {
       SubTitle:
         "Komprimierung, wenn die Länge der unkomprimierten Nachrichten den Wert überschreitet",
     },
-    Token: {
-      Title: "API-Schlüssel",
-      SubTitle:
-        "Verwenden Sie Ihren Schlüssel, um das Zugangscode-Limit zu ignorieren",
-      Placeholder: "OpenAI API-Schlüssel",
-    },
-    Usage: {
-      Title: "Kontostand",
-      SubTitle(used: any, total: any) {
-        return `Diesen Monat ausgegeben $${used}, Abonnement $${total}`;
-      },
-      IsChecking: "Wird überprüft...",
-      Check: "Erneut prüfen",
-      NoAccess: "API-Schlüssel eingeben, um den Kontostand zu überprüfen",
-    },
+
     AccessCode: {
       Title: "Zugangscode",
       SubTitle: "Zugangskontrolle aktiviert",

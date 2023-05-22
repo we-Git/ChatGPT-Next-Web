@@ -140,20 +140,7 @@ const fr: LocaleType = {
       SubTitle:
         "Comprimera si la longueur des messages non compressés dépasse cette valeur",
     },
-    Token: {
-      Title: "Clé API",
-      SubTitle: "Utilisez votre clé pour ignorer la limite du code d'accès",
-      Placeholder: "Clé OpenAI API",
-    },
-    Usage: {
-      Title: "Solde du compte",
-      SubTitle(used: any, total: any) {
-        return `Épuisé ce mois-ci $${used}, abonnement $${total}`;
-      },
-      IsChecking: "Vérification...",
-      Check: "Vérifier",
-      NoAccess: "Entrez la clé API pour vérifier le solde",
-    },
+
     AccessCode: {
       Title: "Code d'accès",
       SubTitle: "Contrôle d'accès activé",

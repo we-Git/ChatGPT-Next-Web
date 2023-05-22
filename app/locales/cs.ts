@@ -137,20 +137,7 @@ const cs: LocaleType = {
       SubTitle:
         "Komprese proběhne, pokud délka nekomprimovaných zpráv přesáhne tuto hodnotu",
     },
-    Token: {
-      Title: "API klíč",
-      SubTitle: "Použitím klíče ignorujete omezení přístupového kódu",
-      Placeholder: "Klíč API OpenAI",
-    },
-    Usage: {
-      Title: "Stav účtu",
-      SubTitle(used: any, total: any) {
-        return `Použito tento měsíc $${used}, předplaceno $${total}`;
-      },
-      IsChecking: "Kontroluji...",
-      Check: "Zkontrolovat",
-      NoAccess: "Pro kontrolu zůstatku zadejte klíč API",
-    },
+
     AccessCode: {
       Title: "Přístupový kód",
       SubTitle: "Kontrola přístupu povolena",
