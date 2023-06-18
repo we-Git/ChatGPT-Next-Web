@@ -1,4 +1,17 @@
 import cn from "./cn";
+import en from "./en";
+import tw from "./tw";
+import fr from "./fr";
+import es from "./es";
+import it from "./it";
+import tr from "./tr";
+import jp from "./jp";
+import de from "./de";
+import vi from "./vi";
+import ru from "./ru";
+import no from "./no";
+import cs from "./cs";
+import ko from "./ko";
 import { merge } from "../utils/merge";
 
 import type { LocaleType } from "./cn";
