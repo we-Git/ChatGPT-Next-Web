@@ -19,19 +19,6 @@ export type { LocaleType, PartialLocaleType } from "./cn";
 
 const ALL_LANGS = {
   cn,
-  en,
-  tw,
-  jp,
-  ko,
-  fr,
-  es,
-  it,
-  tr,
-  de,
-  vi,
-  ru,
-  cs,
-  no,
 };
 
 export type Lang = keyof typeof ALL_LANGS;
