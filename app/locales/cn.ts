@@ -160,11 +160,11 @@ const cn = {
       Title: "历史消息长度压缩阈值",
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
-    Token: {
+/*    Token: {
       Title: "API Key",
       SubTitle: "使用自己的 Key 可绕过密码访问限制",
       Placeholder: "OpenAI API Key",
-    },
+    },*/
 
 /*    Usage: {
       Title: "余额查询",
@@ -180,10 +180,10 @@ const cn = {
       SubTitle: "管理员已开启加密访问",
       Placeholder: "请输入访问密码",
     },
-    Endpoint: {
+    /*Endpoint: {
       Title: "接口地址",
       SubTitle: "除默认地址外，必须包含 http(s)://",
-    },
+    },*/
     Model: "模型 (model)",
     Temperature: {
       Title: "随机性 (temperature)",
