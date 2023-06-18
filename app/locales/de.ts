@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
-import type { LocaleType } from "./index";
+import type { PartialLocaleType } from "./index";
 
-const de: LocaleType = {
+const de: PartialLocaleType = {
   WIP: "In Bearbeitung...",
   Error: {
     Unauthorized:
@@ -72,20 +72,6 @@ const de: LocaleType = {
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "Alle Sprachen",
-      Options: {
-        cn: "简体中文",
-        en: "English",
-        tw: "繁體中文",
-        fr: "Français",
-        es: "Español",
-        it: "Italiano",
-        tr: "Türkçe",
-        jp: "日本語",
-        de: "Deutsch",
-        vi: "Tiếng Việt",
-        ru: "Русский",
-        cs: "Čeština",
-      },
     },
     Avatar: "Avatar",
     FontSize: {
@@ -157,6 +143,11 @@ const de: LocaleType = {
       Title: "Presence Penalty", //Anwesenheitsstrafe
       SubTitle:
         "Ein größerer Wert erhöht die Wahrscheinlichkeit, dass über neue Themen gesprochen wird",
+    },
+    FrequencyPenalty: {
+      Title: "Frequency Penalty", // HäufigkeitStrafe
+      SubTitle:
+        "Ein größerer Wert, der die Wahrscheinlichkeit verringert, dass dieselbe Zeile wiederholt wird",
     },
   },
   Store: {
