@@ -126,7 +126,7 @@ const fr: PartialLocaleType = {
       SubTitle:
         "Comprimera si la longueur des messages non compressés dépasse cette valeur",
     },
-    Token: {
+    /*Token: {
       Title: "Clé API",
       SubTitle: "Utilisez votre clé pour ignorer la limite du code d'accès",
       Placeholder: "Clé OpenAI API",
@@ -139,7 +139,7 @@ const fr: PartialLocaleType = {
       IsChecking: "Vérification...",
       Check: "Vérifier",
       NoAccess: "Entrez la clé API pour vérifier le solde",
-    },
+    },*/
     AccessCode: {
       Title: "Code d'accès",
       SubTitle: "Contrôle d'accès activé",

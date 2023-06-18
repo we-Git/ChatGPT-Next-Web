@@ -104,7 +104,7 @@ const no: PartialLocaleType = {
       SubTitle:
         "Komprimer dersom ikke-komprimert lengde på meldinger overskrider denne verdien",
     },
-    Token: {
+    /*Token: {
       Title: "API Key",
       SubTitle:
         "Bruk din egen API-nøkkel for å ignorere tilgangskoden begrensning",
@@ -118,7 +118,7 @@ const no: PartialLocaleType = {
       IsChecking: "Sjekker ...",
       Check: "Sjekk",
       NoAccess: "Skriv inn API-nøkkelen for å sjekke saldo",
-    },
+    },*/
     AccessCode: {
       Title: "Tilgangskode",
       SubTitle: "Tilgangskontroll på",

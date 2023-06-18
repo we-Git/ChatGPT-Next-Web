@@ -123,7 +123,7 @@ const it: PartialLocaleType = {
       SubTitle:
         "Comprimerà se la lunghezza dei messaggi non compressi supera il valore",
     },
-    Token: {
+    /*Token: {
       Title: "API Key",
       SubTitle:
         "Utilizzare la chiave per ignorare il limite del codice di accesso",
@@ -137,7 +137,7 @@ const it: PartialLocaleType = {
       IsChecking: "Controllando...",
       Check: "Controlla ancora",
       NoAccess: "Inserire la chiave API per controllare il saldo",
-    },
+    },*/
     AccessCode: {
       Title: "Codice d'accesso",
       SubTitle: "Controllo d'accesso abilitato",

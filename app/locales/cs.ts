@@ -123,7 +123,7 @@ const cs: PartialLocaleType = {
       SubTitle:
         "Komprese proběhne, pokud délka nekomprimovaných zpráv přesáhne tuto hodnotu",
     },
-    Token: {
+    /*Token: {
       Title: "API klíč",
       SubTitle: "Použitím klíče ignorujete omezení přístupového kódu",
       Placeholder: "Klíč API OpenAI",
@@ -136,7 +136,7 @@ const cs: PartialLocaleType = {
       IsChecking: "Kontroluji...",
       Check: "Zkontrolovat",
       NoAccess: "Pro kontrolu zůstatku zadejte klíč API",
-    },
+    },*/
     AccessCode: {
       Title: "Přístupový kód",
       SubTitle: "Kontrola přístupu povolena",

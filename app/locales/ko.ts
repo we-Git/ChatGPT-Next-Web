@@ -122,7 +122,7 @@ const ko: PartialLocaleType = {
       Title: "기록 압축 임계값",
       SubTitle: "미압축 메시지 길이가 임계값을 초과하면 압축됨",
     },
-    Token: {
+    /*Token: {
       Title: "API 키",
       SubTitle: "액세스 코드 제한을 무시하기 위해 키 사용",
       Placeholder: "OpenAI API 키",
@@ -135,7 +135,7 @@ const ko: PartialLocaleType = {
       IsChecking: "확인 중...",
       Check: "확인",
       NoAccess: "잔액 확인을 위해 API 키를 입력하세요.",
-    },
+    },*/
     AccessCode: {
       Title: "액세스 코드",
       SubTitle: "액세스 제어가 활성화됨",

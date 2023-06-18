@@ -123,7 +123,7 @@ const tr: PartialLocaleType = {
       SubTitle:
         "Sıkıştırılmamış mesajların uzunluğu bu değeri aşarsa sıkıştırılır",
     },
-    Token: {
+    /*Token: {
       Title: "API Anahtarı",
       SubTitle: "Erişim kodu sınırını yoksaymak için anahtarınızı kullanın",
       Placeholder: "OpenAI API Anahtarı",
@@ -136,7 +136,7 @@ const tr: PartialLocaleType = {
       IsChecking: "Kontrol ediliyor...",
       Check: "Tekrar Kontrol Et",
       NoAccess: "Bakiyeyi kontrol etmek için API anahtarını girin",
-    },
+    },*/
     AccessCode: {
       Title: "Erişim Kodu",
       SubTitle: "Erişim kontrolü etkinleştirme",

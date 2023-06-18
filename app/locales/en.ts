@@ -162,7 +162,7 @@ const en: LocaleType = {
       SubTitle:
         "Will compress if uncompressed messages length exceeds the value",
     },
-    Token: {
+    /*Token: {
       Title: "API Key",
       SubTitle: "Use your key to ignore access code limit",
       Placeholder: "OpenAI API Key",
@@ -175,7 +175,7 @@ const en: LocaleType = {
       IsChecking: "Checking...",
       Check: "Check",
       NoAccess: "Enter API Key to check balance",
-    },
+    },*/
     AccessCode: {
       Title: "Access Code",
       SubTitle: "Access control enabled",

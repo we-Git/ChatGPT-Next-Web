@@ -124,7 +124,7 @@ const de: PartialLocaleType = {
       SubTitle:
         "Komprimierung, wenn die Länge der unkomprimierten Nachrichten den Wert überschreitet",
     },
-    Token: {
+    /*Token: {
       Title: "API-Schlüssel",
       SubTitle:
         "Verwenden Sie Ihren Schlüssel, um das Zugangscode-Limit zu ignorieren",
@@ -138,7 +138,7 @@ const de: PartialLocaleType = {
       IsChecking: "Wird überprüft...",
       Check: "Erneut prüfen",
       NoAccess: "API-Schlüssel eingeben, um den Kontostand zu überprüfen",
-    },
+    },*/
     AccessCode: {
       Title: "Zugangscode",
       SubTitle: "Zugangskontrolle aktiviert",
