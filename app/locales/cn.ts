@@ -204,7 +204,9 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "添加微信：**wechat_yf**,备注**密码**，免费获取密码",
+    BotHello: `前往公众号：**赤耳哟** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。
+              卡顿或无响应？可能是用户量太大， 添加微信：**wechat_yf** 备注 **账号** 获取独立账号和key
+              欢迎来聊聊  ![图片](/hello.jpg)`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
