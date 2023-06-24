@@ -4,7 +4,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      `前往公众号：**赤耳哟** 回复 **密码** 免费获取密码(扫描以下二维码，直达公众号)，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。
+     ![图片](/hello.jpg)`,
   },
   Auth: {
     Title: "需要密码",
@@ -204,9 +205,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: `前往公众号：**赤耳哟** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。
-              卡顿或无响应？可能是用户量太大， 添加微信：**wechat_yf** 备注 **账号** 获取独立账号和key
-              欢迎来聊聊  ![图片](/hello.jpg)`,
+    BotHello: "有什么可以帮助你的吗? 卡顿或无响应？可能是用户量太大， 添加微信：**wechat_yf** 备注 **账号** 获取独立账号和key",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
