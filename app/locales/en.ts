@@ -5,7 +5,9 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Unauthorized access, please enter access code in [auth](/#/auth) page.",
+      /*"Unauthorized access, please enter access code in [auth](/#/auth) page.",*/
+      `前往公众号：**赤耳哟** 回复 **密码** 免费获取密码(扫描以下二维码，直达公众号)，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。
+           ![图片](/hello.jpg)`,
   },
   Auth: {
     Title: "Need Access Code",
@@ -207,7 +209,7 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "Hello! How can I assist you today?Stuck or unresponsive? It may be that the number of users is too large. Add WeChat: **wechat_yf** Remark **Account** Obtain an independent account and key",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
